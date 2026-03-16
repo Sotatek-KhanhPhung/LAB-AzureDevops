@@ -5,6 +5,12 @@ export default {
     DB: process.env.DB_NAME, //|| "testdb",
     PORT: process.env.DB_PORT,
     dialect: process.env.DB_DIALECT, //|| "mysql",
+    // HOST: 'three-tier-vnet.mysql.database.azure.com', //|| "localhost",
+    // USER: 'appdb', //|| "root",
+    // PASSWORD: 'Qwert12345!@#$%', //|| "",
+    // DB: 'school', //|| "testdb",
+    // PORT: 3306,
+    // dialect: 'mysql', //|| "mysql",
     pool: {
         max: 5,
         min: 0,
